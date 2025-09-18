@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verba Latina - Juego de Latín</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta property="og:title" content="Verba Latina - ¡Juega a traducir del Latín!" />
+    <meta property="og:description" content="Pon a prueba tu conocimiento de latín con este sencillo juego de vocabulario." />
+    <meta property="og:type" content="website" />
+    </head>
+<body>
+    <div class="game-container">
+        <h1>Verba Latina 🏛️</h1>
+        <div id="question-container" class="hide">
+            <div id="question">Pregunta aquí</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Opción 1</button>
+                <button class="btn">Opción 2</button>
+                <button class="btn">Opción 3</button>
+                <button class="btn">Opción 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Empezar</button>
+            <button id="next-btn" class="next-btn btn hide">Siguiente</button>
+        </div>
+        <div id="result-container" class="hide">
+            <h2>¡Juego terminado!</h2>
+            <p>Tu puntuación es: <span id="score">0</span></p>
+            <button id="restart-btn" class="btn">Jugar de Nuevo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
