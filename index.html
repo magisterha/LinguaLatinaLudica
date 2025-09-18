@@ -1,38 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="zh-Hant"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verba Latina - Juego de Latín</title>
-    <link rel="stylesheet" href="style.css">
+    <title>拉丁文詞彙 - 拉丁語遊戲</title> <link rel="stylesheet" href="css/style.css">
     
-    <meta property="og:title" content="Verba Latina - ¡Juega a traducir del Latín!" />
-    <meta property="og:description" content="Pon a prueba tu conocimiento de latín con este sencillo juego de vocabulario." />
+    <meta property="og:title" content="拉丁文詞彙 - 來玩拉丁語遊戲吧！" />
+    <meta property="og:description" content="用這個簡單的詞彙遊戲測試你的拉丁語知識。" />
     <meta property="og:type" content="website" />
-    </head>
+</head>
 <body>
     <div class="game-container">
-        <h1>Verba Latina 🏛️</h1>
-        <div id="question-container" class="hide">
+        <h1>拉丁文詞彙 🏛️</h1> <div id="question-container" class="hide">
             <div id="question">Pregunta aquí</div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Opción 1</button>
-                <button class="btn">Opción 2</button>
-                <button class="btn">Opción 3</button>
-                <button class="btn">Opción 4</button>
-            </div>
+                </div>
         </div>
         <div class="controls">
-            <button id="start-btn" class="start-btn btn">Empezar</button>
-            <button id="next-btn" class="next-btn btn hide">Siguiente</button>
+            <button id="start-btn" class="start-btn btn">Incipe</button>
+            
+            <button id="next-btn" class="next-btn btn hide">下一題</button>
         </div>
         <div id="result-container" class="hide">
-            <h2>¡Juego terminado!</h2>
-            <p>Tu puntuación es: <span id="score">0</span></p>
-            <button id="restart-btn" class="btn">Jugar de Nuevo</button>
-        </div>
+            <h2>遊戲結束！</h2> <p>你的分數是：<span id="score">0</span></p> <button id="restart-btn" class="btn">再玩一次</button> </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
